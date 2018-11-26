@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/external-link/green</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icon/external-link/green" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Group" transform="translate(5.000000, 5.000000)" stroke="#3D70B2" stroke-width="1.5">
+            <path d="M11.6666667,7.44444444 L11.6666667,12.1111111 C11.6666667,12.9702207 10.9702207,13.6666667 10.1111111,13.6666667 L1.55555556,13.6666667 C0.696445945,13.6666667 0,12.9702207 0,12.1111111 L0,3.55555556 C0,2.69644594 0.696445945,2 1.55555556,2 L6.22222222,2" id="Shape"></path>
+            <polyline id="Shape" points="9 0 13.6666667 0 13.6666667 4.66666667"></polyline>
+            <path d="M5,8.55555556 L13.5555556,0" id="Shape"></path>
+        </g>
+    </g>
+</svg>

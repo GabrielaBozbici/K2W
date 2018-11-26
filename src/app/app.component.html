@@ -1,0 +1,265 @@
+<main class="container-fluid">
+	<div class="row">
+		<div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+			<form>
+				<div class="form-group">
+					<label for="newComment" class="hidden">Add new comment</label>
+					<input class="new-comment form-control" type="text" placeholder="Add a new comment" id="newComment">
+				</div>
+			</form>
+		</div>
+	</div>
+	
+	<div class="row">
+		<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+			<div class="panel-group" id="versions" role="tablist" aria-multiselectable="true">
+				<!-- Current version -->
+				<section class="version">
+					<div role="tab" id="commentOne" class="version-header">
+						<h3>Current version - 4 Comments</h3>
+						<div class="line"></div>
+						<a role="button" data-toggle="collapse" data-parent="#versions" href="#collapseOne" aria-expanded="true"
+						 aria-controls="collapseOne" *ngIf="commentsCollapsed" (click)="toggleComments()" title="Click to reveal the comments.">
+							<img src="../assets/icons/down-green.svg" alt="arrow down">
+						</a>
+						<a role="button" data-toggle="collapse" data-parent="#versions" href="#collapseOne" aria-expanded="true"
+						 aria-controls="collapseOne" *ngIf="!commentsCollapsed" (click)="toggleComments()" title="Click to hide the comments.">
+							<img src="../assets/icons/up-green.svg" alt="arrow up">
+						</a>
+					</div>
+					<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="commentOne">
+						<div class="panel-body">
+							<!--Comment 1 -->
+							<div class="comment">
+								<header class="comment-header">
+									<div class="comment-info">
+										<div class="avatar">
+											<img src="../assets/avatars/user1.jpeg" alt="user avatar">
+										</div>
+										<p class="username">Bennie Frank</p>
+										<div class="date-time">
+											<span class="date">20 Dec 2018</span>
+											<span class="time hidden-xs">11:10 AM</span>
+										</div>
+									</div>
+									<div class="hide-comment" title="Click to hide the comment.">
+										<img src="../assets/icons/eye-off-green.svg" alt="hide comment icon">
+										<span class="hidden-xs">Hide</span>
+									</div>
+								</header>
+								<div class="comment-body">
+									<p>Yoga is not just repetition of few postures – it is more about the exploration and discovery of the subtle
+										energies of life.</p>
+								</div>
+								<!-- Responses -->
+								<div class="panel-group" id="responses" role="tablist" aria-multiselectable="true">
+									<div id="collapseResponses" class="panel-collapse collapse" role="tabpanel" aria-labelledby="collapseResponses">
+										<div class="panel-body">
+											<div class="response">
+												<div class="count">1</div>
+												<header class="response-header">
+													<div class="response-info">
+														<div class="avatar">
+															<img src="../assets/avatars/user2.jpg" alt="user avatar">
+														</div>
+														<p class="username">Elvis Press</p>
+														<div class="date-time">
+															<span class="date">20 Dec 2018</span>
+															<span class="time hidden-xs">11:10 AM</span>
+														</div>
+													</div>
+													<div class="hide-comment" title="Click to hide the comment">
+														<img src="../assets/icons/eye-off-green.svg" alt="hide comment icon">
+													</div>
+												</header>
+												<div class="response-body">
+													<p>A photographer gets people to pose for him. A yoga instructor gets people to pose for themselves.</p>
+												</div>
+											</div>
+											<div class="response">
+												<div class="count">2</div>
+												<header class="response-header">
+													<div class="response-info">
+														<div class="avatar">
+															<img src="../assets/avatars/user3.jpg" alt="user avatar">
+														</div>
+														<p class="username">Barack Obama</p>
+														<div class="date-time">
+															<span class="date">20 Dec 2018</span>
+															<span class="time hidden-xs">11:10 AM</span>
+														</div>
+													</div>
+													<div class="hide-comment" title="Click to hide the comment">
+														<img src="../assets/icons/eye-off-green.svg" alt="hide comment icon">
+													</div>
+												</header>
+												<div class="response-body">
+													<p>The body is your temple. Keep it pure and clean for the soul to reside in.</p>
+												</div>
+											</div>
+											<div class="response reply">
+												<div class="count">3</div>
+												<header class="response-header">
+													<div class="response-info">
+														<div class="avatar">
+															<img src="../assets/avatars/user4.jpg" alt="user avatar">
+														</div>
+														<p class="username">Jane Doe (me)</p>
+														<div class="date-time">
+															<span class="date">20 Dec 2018</span>
+															<span class="time hidden-xs">11:10 AM</span>
+														</div>
+													</div>
+												</header>
+												<div class="form-group">
+													<label for="reply" class="hidden">Reply to comment</label>
+													<input type="text" class="form-control" placeholder="Reply to comment" (focus)="focusInput()" id="reply"
+													 (focusout)="focusInput()">
+												</div>
+											</div>
+										</div>
+									</div>
+									<div role="tab" class="controls" [ngClass]="{'reply-mode': !responsesCollapsed && inputFocused}">
+										<button type="button" class="btn btn-primary replyBtn" *ngIf="inputFocused">Reply</button>
+										<a role="button" href="#" *ngIf="responsesCollapsed">Reply</a>
+										<a role="button" data-toggle="collapse" data-parent="#responses" href="#collapseResponses" aria-expanded="true"
+										 aria-controls="collapseResponses" *ngIf="responsesCollapsed" (click)="toggleResponses()" title="Toggle responses.">
+											3 Responses
+										</a>
+										<a role="button" data-toggle="collapse" data-parent="#responses" href="#collapseResponses" aria-expanded="true"
+										 aria-controls="collapseResponses" *ngIf="!responsesCollapsed" (click)="toggleResponses()" title="Toggle responses.">
+											Show Less
+										</a>
+									</div>
+								</div>
+							</div>
+							<!--Comment 2  -->
+							<div class="comment">
+								<header class="comment-header">
+									<div class="comment-info">
+										<div class="avatar">
+											<img src="../assets/avatars/user5.jpeg" alt="user avatar">
+										</div>
+										<p class="username">The Queen</p>
+										<div class="date-time">
+											<span class="date">20 Dec 2018</span>
+											<span class="time hidden-xs">11:10 AM</span>
+										</div>
+									</div>
+									<div class="hide-comment" title="Click to hide the comment">
+										<img src="../assets/icons/eye-off-green.svg" alt="hide comment icon">
+										<span class="hidden-xs">Hide</span>
+									</div>
+								</header>
+								<div class="comment-body">
+									<p>Yoga is 99% practice and 1% theory.</p>
+								</div>
+								<!-- Responses -->
+								<div role="tab" class="controls">
+									<a role="button" data-toggle="collapse">
+										10 Responses
+									</a>
+								</div>
+							</div>
+							<!-- Comment 3 -->
+							<div class="comment">
+								<header class="comment-header">
+									<div class="comment-info">
+										<div class="avatar">
+											<img src="../assets/avatars/user2.jpg" alt="user avatar">
+										</div>
+										<p class="username">Mary Moon</p>
+										<div class="date-time">
+											<span class="date">20 Dec 2018</span>
+											<span class="time hidden-xs">11:10 AM</span>
+										</div>
+									</div>
+									<div class="hide-comment" title="Click to hide the comment">
+										<img src="../assets/icons/eye-off-green.svg" alt="hide comment icon">
+										<span class="hidden-xs">Hide</span>
+									</div>
+								</header>
+								<div class="comment-body-img pos-rel">
+									<div class="image-controls pos-abs">
+										<button class="edit-image">
+											<img src="../assets/icons/edit-blue.svg" class="maxHW" alt="edit image">
+										</button>
+										<button class="close-image">
+											<img src="../assets/icons/exit-blue.svg" class="maxHW" alt="close image">
+										</button>
+									</div>
+									<img class="comment-image" src="../assets/images/cards.jpg" alt="colored cards image">
+								</div>
+								<div class="message comment-body">
+									<p>Please review the new design for the project.</p>
+								</div>
+								<!-- Responses -->
+								<div role="tab" class="controls">
+									<a role="button" data-toggle="collapse">
+										10 Responses
+									</a>
+								</div>
+							</div>
+							<!-- Comment 4 -->
+							<div class="comment">
+								<header class="comment-header">
+									<div class="comment-info">
+										<div class="avatar">
+											<img src="../assets/avatars/user7.jpeg" alt="user avatar">
+										</div>
+										<p class="username">Angie Kis</p>
+										<div class="date-time">
+											<span class="date">20 Dec 2018</span>
+											<span class="time hidden-xs">11:10 AM</span>
+										</div>
+									</div>
+									<div class="hide-comment" title="Click to hide the comment">
+										<img src="../assets/icons/eye-off-green.svg" alt="hide comment icon">
+										<span class="hidden-xs">Hide</span>
+									</div>
+								</header>
+								<div class="comment-body-video">
+									<div class="embed-responsive embed-responsive-16by9">
+										<iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/FSVTrUIvH8w"
+										 frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen>
+										</iframe>
+									</div>
+								</div>
+								<div class="message comment-body">
+									<p>Please review the new video.</p>
+								</div>
+								<!-- Responses -->
+								<div role="tab" class="controls">
+									<a role="button" data-toggle="collapse">
+										10 Responses
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</section>
+				<!--Version 2 -->
+				<section class="version">
+					<div role="tab" id="commentTwo" class="version-header">
+						<h3>Version 2 - 3 Comments</h3>
+						<div class="line"></div>
+						<a role="button" data-toggle="collapse" data-parent="#versions" href="#collapseTwo" aria-expanded="true">
+							<img src="../assets/icons/down-green.svg" alt="arrow down">
+						</a>
+					</div>
+				</section>
+				<!--Version 3 -->
+				<section class="version">
+					<div role="tab" id="commentThree" class="version-header">
+						<h3>Version 3 - 10 Comments</h3>
+						<div class="line"></div>
+						<a role="button" data-toggle="collapse" data-parent="#versions" href="#collapseThree" aria-expanded="true">
+							<img src="../assets/icons/down-green.svg" alt="arrow down">
+						</a>
+					</div>
+				</section>
+			</div>
+		</div>
+	</div>
+</main>

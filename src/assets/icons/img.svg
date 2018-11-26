@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>UI-icon/File/Small/img</title>
+    <desc>Created with Sketch.</desc>
+    <g id="UI-icon/File/Small/img" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill="#FFFFFF" x="2" y="3" width="20" height="18"></rect>
+        <path d="M22.4729167,22.5104167 L1,22.5104167 L1,2 L22.4729167,2 L22.4729167,22.5104167 Z M3.0625,20.4450521 L20.4075521,20.4450521 L20.4075521,4.06536458 L3.0625,4.06536458 L3.0625,20.4450521 Z" id="Shape" fill="#7F5DC8" fill-rule="nonzero"></path>
+        <path d="M8.35786152,8 C9.34504593,8 10.1466694,8.74471807 10.1466694,9.66510053 C10.1466694,10.585483 9.34504593,11.3326752 8.35786152,11.3326752 C7.37067711,11.3326752 6.57152782,10.5879571 6.57152782,9.66510053 C6.57152782,8.74719221 7.37067711,8 8.35786152,8 Z M6,16.5358051 L8.6498108,14.5490655 L9.99822058,15.5337758 L15.344851,11.5776157 L17.3315905,13.0546811 L18.6800003,12.0699708 L18.6800003,16.5358051 L6,16.5358051 Z" id="Shape" fill="#7F5DC8" fill-rule="nonzero"></path>
+    </g>
+</svg>

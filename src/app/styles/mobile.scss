@@ -1,0 +1,31 @@
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	.container-fluid {
+		// changing bootstrap structure css is usually bad practice
+		// this is done for illustration purposes only
+		padding-left: 50px;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.username {
+		font-size: 14px;
+	}
+	.date-time {
+		font-size: 14px;
+	}
+	.version {
+		.version-header {
+			h3 {
+				font-size: 15px;
+			}
+		}
+		.panel-body {
+			.comment-body-img, .comment-body-video {
+				margin: 0 -15px;
+			}
+		}
+	}
+}

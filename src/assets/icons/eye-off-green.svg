@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/eye-off/green</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icon/eye-off/green" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Group" transform="translate(5.000000, 5.000000)" stroke="#1A8384" stroke-width="1.5">
+            <path d="M11.2933333,11.2933501 C10.1537266,12.1620183 8.76607164,12.6432589 7.33333333,12.6666835 C2.66666667,12.6666835 0,7.33335012 0,7.33335012 C0.829259931,5.78794723 1.97942363,4.43775506 3.37333333,3.37335012 M5.93333333,2.16001679 C6.39222153,2.05260313 6.86204271,1.99890928 7.33333333,2.00001679 C12,2.00001679 14.6666667,7.33335012 14.6666667,7.33335012 C14.2619864,8.09042169 13.7793703,8.80317418 13.2266667,9.46001679 M8.74666667,8.74668345 C8.24807845,9.28175859 7.49718522,9.50201461 6.78856291,9.3210449 C6.0799406,9.14007519 5.52660826,8.58674285 5.34563856,7.87812054 C5.16466885,7.16949823 5.38492486,6.418605 5.92,5.92001679" id="Shape"></path>
+            <path d="M0,0 L14.6666667,14.6666667" id="Shape"></path>
+        </g>
+    </g>
+</svg>
