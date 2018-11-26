@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/link/blue</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icon/link/blue" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Group" transform="translate(5.000000, 5.000000)" stroke="#2C64AC" stroke-width="1.5">
+            <path d="M6,7.28904007 C6.57930366,8.06350202 7.4664182,8.54817369 8.43109991,8.6172623 C9.39578162,8.68635091 10.3429105,8.33304415 11.0266667,7.64904007 L13.0266667,5.64904007 C14.2899074,4.34111045 14.2718412,2.26209081 12.9860619,0.976311484 C11.7002826,-0.309467844 9.62126296,-0.327533963 8.31333333,0.935706736 L7.16666667,2.07570674" id="Shape"></path>
+            <path d="M7.9623734,6.33674836 C7.38306974,5.56228642 6.4959552,5.07761475 5.53127349,5.00852614 C4.56659178,4.93943753 3.61946287,5.29274428 2.93570674,5.97674836 L0.935706736,7.97674836 C-0.327533963,9.28467799 -0.309467844,11.3636976 0.976311484,12.6494769 C2.26209081,13.9352563 4.34111045,13.9533224 5.64904007,12.6900817 L6.78904007,11.5500817" id="Shape"></path>
+        </g>
+    </g>
+</svg>
